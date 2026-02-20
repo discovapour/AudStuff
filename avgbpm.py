@@ -2,7 +2,7 @@ import os
 import numpy as np
 import librosa
 
-folder = "C:/Users/PCUSER/Videos/Declaime Teasers/TraCKS"
+folder = "C:/Users/PCUSER/Videos/Audiio/TraCKS"
 
 print("Scanning folder:", folder)
 print("-" * 50)
@@ -56,4 +56,5 @@ print("Valid BPM values:", bpms)
 if bpms:
     print("Average BPM:", round(np.mean(bpms), 2))
 else:
+
     print("No BPM detected.")
