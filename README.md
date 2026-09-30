@@ -14,3 +14,6 @@ python generate_lyrics.py Filename
 options:
 --out  subtitlefilename                     lets you name the subtitle file however you want, in this case it would be called subtitlefilename.srt
 --folder "C:\Music\Album1\"                 automatically generates subtitles for every track in the folder, auto naming them
+
+**wav2mp3.ps1 
+Powershell script to convert .wav to 320kbps mp3.  Useful when your hard drive is full up.  Contains a validation check to ensure the output file is within 5 secs of the original and fails on any error.  Removes .wav file afterwards.
